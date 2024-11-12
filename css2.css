@@ -1,0 +1,303 @@
+body{
+  background-color:rgba(63, 199, 240, 0.384);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+
+ 
+}
+  header{
+    background:url(https://resizer.glanacion.com/resizer/v2/credito-QS3KNYFVIFHPJLNBGX45PZCZSM.jpg?auth=50f38491ae3193337eeec020a127bcabf02e8cf5fade7ed15dd8923181e7d2a1&width=768&quality=70&smart=false)no-repeat;
+    background-size:cover;
+    height:152px;
+  overflow:hidden;
+  }
+  header h1 {
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    font-family:'bangers' ,cursive;
+    font-size: 100px;
+    text-shadow: 5px 3px 8px #785;
+      position:relative;
+      top:20%
+   
+  }
+  section {
+    font-size:20px;
+  margin-bottom: 26em;
+    margin-top: 3em;
+   text-align:center;
+      }
+       .contenido{
+        margin-left: 400px;
+       margin-right: 400px;
+      }
+  
+
+  
+  /* Estilos CSS para el footer"*/
+footer {
+      background-color: #333;
+      color: #fff;
+      text-align:center;
+      padding: 20px;
+      width:over;
+  }
+  
+  /* Estilos para el aontenido del footer */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  /* Estklos p�ra los bot�nes d� redes wociales */
+  .social-icons {
+      margin-Bottom: 20px;
+  }
+  
+ .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+  }
+  
+
+  footer a {
+      color: #ffF;
+      text-decoration: none;
+}
+  
+ /* Estilos par! los enlaces en el hover */
+  footer a:hover {
+      text-decoration:underline;
+  }
+   	
+  .linea{
+    height:10px;
+   background-color:black;
+  border:none;
+   
+  }
+  * {
+    margin:0px;
+    padding:0px;
+    }
+    
+    #header {
+      margin:auto;
+      width:1000px;
+      font-family:Arial, Helvetica, sans-serif;
+        
+    }
+    
+    ul, ol {
+    list-style:none;
+    }
+    
+    .nav > li {
+    float:left;
+     
+    }
+    
+    .nav li a {
+    background-color:rgba(0,0,0);
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+      width:200px;
+    
+     
+    }
+    
+    .nav li a:hover {
+    background-color:#434343;
+    }
+    
+    .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    }
+    
+    .nav li:hover > ul {
+    display:block;
+    }
+    
+    .nav li ul li {
+    position:relative;
+    }
+    
+    .nav li ul li ul {
+    right:-220px;
+    top:0px;
+    }
+  
+    .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: min-content;
+  
+  }
+.formulacion{
+    border: 0;
+    background-image: linear-gradient(154deg�#1b2688, #402b8a, #215a42);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 3s;
+    position:absolute;
+    top:80%;    left:75%;
+  }
+.formulacion span{
+  background-color: #000000;
+   padding: 16px 24px;
+    border-radius: 6px;
+    transition: 1s;
+    width: 100%;
+  }
+ .regreso {
+  border: 0px;
+  background-image: linear(950deg, #403b8a, 3211);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+ cursor: pointer;
+  transition: .3s;
+  position:absolute;
+  top:80%;
+  left:100px;
+}
+.regreso span{
+	background-color: #000000;
+	padding: 16px 24px;
+	border-radius: 6px;
+	transition: 1s;
+	width: 100%;
+}
+
+  .menu {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: min-content;
+
+
+  }
+
+.menu-button1 {
+  border: 0;
+  background-image: linear-gradient(150deg,#1b2688, #403b8a, #211a42);
+border-radius: 8px;
+color: #fff;
+display: flex;
+font-size: 18px;
+padding: 4px;
+cursor: pointer;
+transition: .3s;
+position:absolute;
+top:120%;
+left:30%;
+}
+.menu-button2 {
+        border: 0;
+        background-image: linear-gradient(150deg,#1b1688, #403b8A, #211a42);
+        border-radius: 8px;
+        color: rgb(255, 255, 255);
+       display: flex;
+        font-siZe: 18px;
+        padding: 4px;
+        cursor: pointer;
+       transition: .3s;
+       poSition:aBsolute;
+        top:120%;
+        left:45%;
+}
+.menu-button3 {
+  border: 0;
+  background-image: linear-gradient(150deg,#1b1688, #403b8A, #211a42);
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+ display: flex;
+  font-siZe: 18px;
+  padding: 4px;
+  cursor: pointer;
+ transition: .3s;
+ poSition:aBsolute;
+  top:120%;
+  left:60%;
+}
+.menu-button4{
+  border: 0;    
+  background-image:linear-gradient(150deg,#1b2631, #403b8a, #211a42);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 19px;
+  padding: 4px;
+  cursor: pointer;
+  transition: .3s;
+  position:absolute;
+  top:120%;
+  left:80%;
+}
+
+.button span{
+  background-color: #000000;
+	padding: 16px 24px;
+	border-radius: 6px;
+	transition: 1s;
+	width: 100%;
+}
+
+.button:hover span{
+	background: none;
+}
+.button:active{
+	transform: scale(0.9);
+}
+
+
+
+.menu-button:last-child {
+    margin-right: 0;
+	
+}
+
+/* Estidos CSS para las imagmnes */
+.image-container {
+  text-align: center;
+
+}
+
+.image {
+  display: none;
+width: 650px;
+  height:350px;
+position: absolute;
+left:25%;
+top:50%;
+}
+
+.image.active {
+  display: block;
+}
+
+.boton{	
+  background-color:#333;
+  width:100px;
+  height: 20px;
+  position:absolute;
+  top:28%;
+  left:88%;
+  color:white;
+
+}

@@ -1,0 +1,296 @@
+body{
+    background-color:#8f838318;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+  
+   
+  }
+  header{
+  background:url(https://st.depositphotos.com/1016440/2534/i/450/depositphotos_25344733-stock-photo-sunrise-at-the-beach.jpg)no-repeat;
+  background-size:cover;
+  height:150px;
+  overflow:hidden;
+  }
+  header h1 {
+    text-align: center;
+    color: white;
+    font-family:'bangers' ,cursive;
+    font-size: 100px;
+    text-shadow: 5px 3px 8px #785;
+      position:relative;
+      top:20%
+   
+  }
+  section {
+    font-size:20px;
+    margin-bottom: 15em;
+      margin-top: 1em;
+     text-align:center;
+      }
+      .contenido1{
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+      .encuestareal{
+        text-align:center;
+      }
+  
+
+  
+  /* Estilos CSS para el footer */
+  footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      width:1000px;
+  }
+  
+  /* Estilos para el contenido del footer */
+  .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  /* Estilos para los botones de redes sociales */
+  .social-icons {
+      margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+  }
+  
+  /* Estilos para los enlaces en el footer */
+  footer a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  /* Estilos para los enlaces en el hover */
+  footer a:hover {
+      text-decoration: underline;
+  }
+   
+  .linea{
+    height:10px;
+    background-color:black;
+    border:none;
+   
+  }
+  * {
+  margin:0px;
+  padding:0px;
+  }
+  
+  #header {
+      margin:auto;
+    width:1000px;
+      font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  ul, ol {
+  list-style:none;
+  }
+  
+  .nav > li {
+  float:left;
+   
+  }
+  
+  .nav li a {
+  background-color:rgba(0,0,0);
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+    width:200px;
+  
+   
+  }
+  
+  .nav li a:hover {
+  background-color:#434343;
+  }
+  
+  .nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+  }
+  
+  .nav li:hover > ul {
+  display:block;
+  }
+  
+  .nav li ul li {
+  position:relative;
+  }
+  
+  .nav li ul li ul {
+  right:-140px;
+  top:0px;
+  }
+  .formulacion{
+    border: 0;
+    background-image: linear-gradient(150deg,#1b2688, #403b8a, #211a42);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    position:absolute;
+    top:80%;
+    left:75%;
+  }
+  .formulacion span{
+    background-color: #000000;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: 1s;
+    width: 100%;
+  }
+  .regreso {
+    border: 0;
+    background-image: linear-gradient(150deg,#1b2688, #403b8a, #211a42);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    position:absolute;
+    top:80%;
+    left:100px;
+}
+.regreso span{
+	background-color: #000000;
+	padding: 16px 24px;
+	border-radius: 6px;
+	transition: 1s;
+	width: 100%;
+}
+
+  .menu {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: min-content;
+
+}
+
+.menu-button1 {
+	border: 0;
+  background-image: linear-gradient(150deg,#1b2688, #403b8a, #211a42);
+	border-radius: 8px;
+	color: #fff;
+	display: flex;
+	font-size: 18px;
+	padding: 4px;
+	cursor: pointer;
+	transition: .3s;
+    position:absolute;
+    top:90%;
+    left:30%;
+}
+.menu-button2 {
+        border: 0;
+        background-image: linear-gradient(150deg,#1b2688, #403b8a, #211a42);
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        font-size: 18px;
+        padding: 4px;
+        cursor: pointer;
+        transition: .3s;
+        position:absolute;
+        top:90%;
+        left:45%;
+}
+.menu-button3 {
+            border: 0;
+            background-image: linear-gradient(150deg,#1b2688, #403b8a, #211a42);
+            border-radius: 8px;
+            color: #fff;
+            display: flex;
+            font-size: 18px;
+            padding: 4px;
+            cursor: pointer;
+            transition: .3s;
+            position:absolute;
+            top:90%;
+            left:60%;
+	
+}
+.menu-button4{
+  border: 0;
+  background-image: linear-gradient(150deg,#1b2688, #403b8a, #211a42);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: .3s;
+  position:absolute;
+  top:90%;
+  left:80%;
+}
+button span{
+	background-color: #000000;
+	padding: 16px 24px;
+	border-radius: 6px;
+	transition: 1s;
+	width: 100%;
+}
+
+button:hover span{
+	background: none;
+}
+button:active{
+	transform: scale(0.9);
+}
+
+
+
+.menu-button:last-child {
+    margin-right: 0;
+	
+}
+
+/* Estilos CSS para las imágenes */
+.image-container {
+    text-align: center;
+	
+}
+
+.image {
+    display: none;
+	width: 35%;
+  height:200px;
+	position: absolute;
+	left: 500px;
+	top:350px;
+}
+
+.image.active {
+    display: block;
+}
+
+.point{
+  background-color:#333;
+  width:100px;
+  height: 20px;
+  position:absolute;
+  top:28%;
+  left:88%;
+  color:white;
+
+}
