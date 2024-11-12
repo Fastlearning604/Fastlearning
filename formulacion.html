@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="css2.css"/>
+</head>
+<body>
+  <header>
+    <h1>FORMULACION</h1>
+      </header>
+ <hr class="linea">
+  <div id="header">
+<ul class="nav">
+    <li><a href="./index.html">Inicio</a></li>
+<li><a href="">Quienes somos</a>
+<ul>
+<li><a href="./pestrategico.html">P. estrategico</a></li>
+
+                       
+                 
+<li><a href="proyecto.html">Proyecto</a>
+<ul>
+<li><a href="./formulacion.html">Formulacion</a></li>
+<li><a href="./multimedia/marcoteorico.pdf">M.T.</a></li>
+<li><a href="./multimedia/marcolegal.pdf">M.L.</a></li>
+<li><a href="./multimedia/cronograma.pdf">cronograma</a></li>
+
+</ul>
+</li>
+</ul>
+</li>
+                  <li><a href="./solucion.html">Solucion T.</a>
+</li>
+<li><a href="evidencias.html">evidencias T.</a></li>
+</ul>
+   
+    </div>
+    <ul class="nav">
+    <div class="menu">
+        <button class="menu-button1" onclick="showImage('MISION')"><span>OBJETIVE G.</span></button>
+        <button class="menu-button2" onclick="showImage('VISION')"><span>OBJETIVES E.</span></button> 
+        <button class="menu-button3" onclick="showImage('VALORES CORP')"><span>P.PROBLEMA</span></button>
+        <button class="menu-button4" onclick="showImage('Trash')"><span>Trash</span></button>
+    </div>
+
+    <div class="image-container">
+        <iframe id="MISION" class="image" src="objetico general.pdf"></iframe>
+        <iframe id="VISION" class="image" src="objetivo espe.pdf"> </iframe>
+        <iframe id="VALORES CORP" class="image" src="PREGUNTA PROBLEMA12.pdf"> </iframe>
+    </div>
+
+   
+    <script>
+        function showImage(iframeId) {
+            // Ocultar todas las imagenes
+            const images = document.querySelectorAll('.image');
+            images.forEach(image => image.classList.remove('active'));
+    
+            // Mostrar la imagen seleccionada
+            const selectedImage = document.getElementById(iframeId);
+            selectedImage.classList.add('active');
+        }
+    </script>
+<li><a class="boton" href="./formulation.html">ingles</a></li>
+    <section>
+        <p class="contenido">
+            OUR PROBLEM FORMULATION CONSISTS OF 3 TOPICS:
+        </p>
+    </section>
+<footer>
+<div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="X.png" alt="X"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+            <p>&copy; 2024 My Website. All rights reserved. | <a href="#">  Privacity Protect</a> | <a href="#">Terms and Conditions</a></p>
+        </div>
+    </footer>
+</footer>
+</body>
+</html>

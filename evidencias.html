@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css3.css"/>
+</head>
+<body>
+    <header>
+        <h1> FASTLEARNING </h1>
+          </header>
+     <hr class="linea">
+     <ul class="nav">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="">Quienes somos</a>
+        <ul>
+        <li><a href="./pestrategico.html">P. estrategico</a></li>
+        
+                               
+                         
+        <li><a href="proyecto.html">Proyecto</a>
+        <ul>
+        <li><a href="./formulacion.html">Formulacion</a></li>
+        <li><a href="marcoteorico.pdf">M.T.</a></li>
+        <li><a href="marcolegal.pdf">M.L.</a></li>
+        <li><a href=".cronograma.pdf">cronograma</a></li>
+        
+        </ul>
+        </li>
+        </ul>
+        </li>
+                          <li><a href="./solucion.html">Solucion T.</a>
+        </li>
+        <li><a href="evidencias.html">evidencias T.</a></li>
+        </ul>
+     <button id="miBoton"><span>IMAGENES</span></button>
+     <button id="miBoton2"><span>VIDEOS</span></button>
+     <button id="miBoton3"><span>ENCUESTA</span></button>
+     <button id="miBoton4"><span>INFOGRAFIA</span></button>
+     <button id="miBoton5"><span>PODCAST</span></button>
+     <button id="miBoton6">vaciar</button>
+     <li class="regreso"><a href="./index.html"><span><h1 class="letra">BACK</h1></span></a></li>
+
+        <div id="miElemento"><div class="image-container"><div class="banner-container">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2" checked>
+            <input type="radio" name="slider" id="slide3"checked>
+            <div class="banner-slide">
+                <div class="slide" id="slide-1">
+                    <img src="./multimedia/WhatsApp Image 2024-10-01 at 7.59.31 AM (1).jpeg" alt="Imagen 1">
+                    </div>
+                    <div class="slide" id="slide-2">
+                        <img src="./multimedia/WhatsApp Image 2024-10-01 at 7.59.31 AM.jpeg" alt="Imagen 2">
+                    </div>
+                    <div class="slide" id="slide-3">
+                        <img src="./multimedia/WhatsApp Image 2024-10-01 at 7.59.32 AM.jpeg" alt="Imagen 3">
+                    </div>
+                </div>
+                <div class="slide-controls">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+        </div></div>
+        <div id="miElemento2">
+            <div class="image-container">
+            <video controls>
+            <source src="./WhatsApp Video 2024-10-01 at 8.07.50 AM.mp4" type="video/mp4">
+            </video>
+        </div></div>
+        <div id="miElemento3">
+            <div class="image-container"><img src="./ENCUESTA.jpeg "></image>
+            </div></div>
+        <div id="miElemento4"><div class="image-container"><image src="./INFOGRAFIA ESPAÑOL_page-0001.jpg">
+        </div></div>
+        <div id="miElemento5"><div class="image-container"><image src="./ENCUESTA.jpeg">
+        </div></div>
+
+    <script>
+
+            document.getElementById('miBoton').addEventListener('click', function() {
+             const elemento = document.getElementById('miElemento');
+             miElemento.style.display = 'block';
+             miElemento2.style.display = 'none';
+             miElemento3.style.display = 'none';
+             miElemento4.style.display = 'none';
+             miElemento5.style.display = 'none';
+              // Mostrar el elemento
+        });
+
+        document.getElementById('miBoton2').addEventListener('click', function() {
+             const elemento = document.getElementById('miElemento3');
+             miElemento.style.display = 'none';
+             miElemento2.style.display = 'block';
+             miElemento3.style.display = 'none';
+             miElemento4.style.display = 'none';
+             miElemento5.style.display = 'none';
+              // Mostrar el elemento
+        });
+        document.getElementById('miBoton3').addEventListener('click', function() {
+             const elemento = document.getElementById('miElemento3');
+             miElemento.style.display = 'none';
+             miElemento2.style.display = 'none';
+             miElemento3.style.display = 'BLOCK';
+             miElemento4.style.display = 'none';
+             miElemento5.style.display = 'none';
+              // Mostrar el elemento
+        });
+        document.getElementById('miBoton4').addEventListener('click', function() {
+             const elemento = document.getElementById('miElemento4');
+             miElemento.style.display = 'none';
+             miElemento2.style.display = 'none';
+             miElemento3.style.display = 'none';
+             miElemento4.style.display = 'block';
+             miElemento5.style.display = 'none';
+              // Mostrar el elemento
+        });
+        document.getElementById('miBoton5').addEventListener('click', function() {
+             const elemento = document.getElementById('miElemento5');
+             miElemento.style.display = 'none';
+             miElemento2.style.display = 'none';
+             miElemento3.style.display = 'none';
+             miElemento4.style.display = 'none';
+             miElemento5.style.display = 'block';
+              // Mostrar el elemento
+        });
+        document.getElementById('miBoton6').addEventListener('click', function(){
+            miElemento.style.display = 'none';
+             miElemento2.style.display = 'none';
+             miElemento3.style.display = 'none';
+             miElemento4.style.display = 'none';
+             miElemento5.style.display = 'none';
+        });
+
+    
+    </script>
+    <li><a class="point" href="evidence.html">Ingles</a></li>
+    <section>
+
+    </section>
+    <footer>
+        <div class="footer-content">
+                    <div class="social-icons">
+                        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="X.png" alt="X"></a>
+                        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                    </div>
+                    <p>&copy; 2024 My Website. All rights reserved. | <a href="#">Privacity protect</a> | <a href="#">Terms and Conditions</a></p>
+                </div>
+            </footer>
+</body>
+</html>

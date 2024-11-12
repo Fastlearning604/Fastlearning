@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="css6.css"/>
+</head>
+<body>
+  <header>
+    <h1>PLAN ESTRATEGICO </h1>
+      </header>
+      
+ <hr class="linea">
+  <div id="header">
+<ul class="nav">
+<li><a href="./index.html">Inicio</a></li>
+<li><a href="">Quienes somos</a>
+<ul>
+<li><a href="">P. estrategico</a>                   
+                 
+<li><a href="proyecto.html">Proyecto</a>
+<ul>
+<li><a href="./formulacion.html">Formulacion</a></li>
+<li><a href="./multimedia/marcoteorico.pdf">M.T.</a></li>
+<li><a href="./multimedia/marcolegal.pdf">M.L.</a></li>
+<li><a href="./multimedia/cronograma.pdf">cronograma</a></li>
+
+</ul>
+</li>
+</ul>
+</li>
+                  <li><a href="./solucion.html">Solucion T.</a>
+</li>
+<li><a href="evidencias.html">evidencias T.</a></li>
+</ul>
+   
+    </div>
+    <ul class="nav">
+        <div class="menu">
+            <button class="menu-button1" onclick="showImage('MISION')"><span>MISION</span></button>
+            <button class="menu-button2" onclick="showImage('VISION')"><span>VISION</span></button> 
+            <button class="menu-button3" onclick="showImage('VALORES CORP')"><span>VALORES CORP</span></button>
+            <button class="menu-button4" onclick="showImage('Trash')"><span>Trash</span></button>
+             
+        </div>
+    
+        <div class="image-container">
+            <image id="MISION" class="image" src="./mision.jpg ">
+            <image id="VISION" class="image" src="./vision (3).jpg">
+            <image id="VALORES CORP" class="image" src="./v corporativos (4).jpg"> 
+        </div>
+    
+       
+        <script>
+            function showImage(imageId) {
+                // Ocultar todas las imágenes
+                const images = document.querySelectorAll('.image');
+                images.forEach(image => image.classList.remove('active'));
+        
+                // Mostrar la imagen seleccionada
+                const selectedImage = document.getElementById(imageId);
+                selectedImage.classList.add('active');
+            }
+        </script>
+    <li><a class="point" href="strategicplan.html">Ingles</a></li>
+    <section>            Nuestro plan estrategico consta de 3 temas:
+            
+    </section>
+<footer>
+<div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="X.png" alt="X"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+            <p>&copy; 2024 My Website. All rights reserved. | <a href="#">Privacity protect</a> | <a href="#">Terms and Conditions</a></p>
+        </div>
+    </footer>
+</footer>
+</body>
+</html>
